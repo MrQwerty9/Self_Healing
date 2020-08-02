@@ -15,7 +15,7 @@ class SplashScreen : AppCompatActivity() {
 
         Handler().postDelayed({
             if (!isCoach) {
-                val intent = Intent(this@SplashScreen, MainActivity::class.java)
+                val intent = Intent(this@SplashScreen, LocusActivity::class.java)
                 startActivity(intent)
                 finish()
             }
