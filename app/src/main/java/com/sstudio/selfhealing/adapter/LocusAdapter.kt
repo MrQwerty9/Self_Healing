@@ -16,11 +16,11 @@ class LocusAdapter(private var context: Context) :
 
     var quizLocus = arrayOf(
         context.getString(R.string.locus_1),
+        context.getString(R.string.locus_2),
+        context.getString(R.string.locus_3),
         context.getString(R.string.locus_4),
         context.getString(R.string.locus_5),
-        context.getString(R.string.locus_2),
         context.getString(R.string.locus_6),
-        context.getString(R.string.locus_3),
         context.getString(R.string.locus_7),
         context.getString(R.string.locus_8),
         context.getString(R.string.locus_9),
